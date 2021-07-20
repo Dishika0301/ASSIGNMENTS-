@@ -1,0 +1,14 @@
+name=input("Name: ")
+age=int(input("age: "))
+
+if(name=='Alice'):
+  print("Hi Alice")
+else:
+  if(age<12):
+    print("You are not Alice,kiddo")
+  if(age>100):
+    print("You are not Alice,grannie")
+  if(age>2000):
+    print("Unlike you Alice is not an undead,immortal vampire")
+
+  

@@ -1,0 +1,22 @@
+20 Basic Linux Commands are as follows:
+pwd: Shows our present working directory
+date: displays the date
+history: Displays all the commands ran in the terminal
+cd: Helps us move to another directory
+clear: Clears up the terminal
+ls: Displays a list of files or folders in our present location
+mkdir: Creates a directory
+touch: Creates a new file
+gedit: Helps edit a particular file
+cp: Copies the contents of one file to another
+rm: Removes folders (removes files if the given command if rm -r)
+mv: Moves a file from one desitantion to another
+chmod: Gives read, write or execute permission
+echo:Displays line of text/string that are passed as an argument
+cal: Shows the calender of the current month(or others according to arguments given)
+help: It provides all the required information about a command passed as argument
+alias: Helps create a new command used when a certain long command is to be used a lot of times.
+cat:Allows us to create single or multiple files, view contain of file, concatenate files and redirect output in terminal or files.
+apt:Command-line utility for installing, updating, removing, and otherwise managing deb packages on Linux.
+exit: Command used to exit the terminal
+

@@ -1,0 +1,33 @@
+Identify any of the following things and Make a document about their functionality and importance
+- 3 ROS Topics
+- 3 ROS Services
+- 3 Actions
+- Navigation messages, Geometry Messages, and sensor messages.
+
+3 Ros topics:
+1)/turtle1/cmd_vel- Informs us of the linear and angular command velocity for turtleX. 
+The turtle will execute a velocity command for 1 second then time out. Twist.linear.x is the forward velocity, Twist.linear.y is the strafe velocity, and Twist.angular.z is the angular velocity.
+
+2)/turtle1/color_sensor- The colour of the background of the turtle.
+
+3)/turtle1/pose-Informs us of the x, y, theta, linear velocity, and angular velocity of turtleX.Informs us the current position of the turtle. 
+
+
+3 Ros Services:
+clear-Clears the turtlesim background and sets the color to the value of the background parameters. 
+
+kill-Kills a turtle by name. 
+
+turtleX/teleport_relative-Teleports the turtleX a linear and angular distance from the turtles current position. 
+
+3 Actions:
+Shape: It is present in the node turtle_actionlib, it is used to make the turtle move so as to form a regular polygon of certain specifications provided by the user.
+
+Goto_position: We send a goal, then move on to other tasks while the robot is driving. Along the way, you receive periodic progress updates (distance traveled, estimated time to goal, etc.), culminating in a result message and nd if something more important comes up, you can at any time cancel the goal and send the robot somewhere else.
+
+
+
+
+ 
+
+

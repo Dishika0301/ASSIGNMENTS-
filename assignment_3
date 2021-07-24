@@ -1,0 +1,30 @@
+Identify the two ROS based autonomous Robots apart from the Turtlebot family and Write about it.
+
+The bots are as follows:
+
+
+1)RB-2:Its is an autonomous indoor robot.
+RB-2 Base is a mobile robot designed for industrial applications such as the transport of materials in factories or warehouses. It is a completely autonomous and collaborative robot, so it can work safely in the environment where people work.
+
+The platform uses a differential kinematic configuration with omni-wheel castors that distributes the payload in the corners, providing the maximal stability in the minimal footprint. The robot mounts two 1000W servo motors that provide it with a linear speed up to 1.7 m/s. It mounts two laser range finders for localization, navigation and safety as also RGBD devices for the detection of obstacles out of the rangefinder plane.
+
+The robot includes an optional self-recharging base station and lifting unit.
+
+2)RB VULCANO:It is an autonomous grpund vehicle.
+Mobile manipulator RB-VULCANO is completely autonomous and collaborative, and can share workspace with people safely by means of its integrated lasers. In addition, it is a highly maneuverable platform thanks to its wheels with infinite rotation.
+
+The robot RB-VULCANO consists of the mobile platform RB-VULCANO BASE, a lift column and a UR5 arm (payload of 5 kg), UR10 (payload 10 kg) or UR16 (payload 16 kg). By default, it has integrated collaborative gripper 40 CO-ACT (Schunk) but this can be replaced by any other type of tool (as a screwdriver, for example).
+
+Meanwhile, the robotic arm can perform at different heights. The base of the robotic arm works between 750 mm and 1.500 mm. This allows to either reach objects that are at ground level and up to 3.000 mm high, in the case of RB-VULCANO 10.
+
+The tableboard allows to place objects weighing up to 300 kg. This can be used as a workbench, the mobile manipulator being stationary or in movement.
+
+The robot can incorporate different magnetic navigation systems, SLAM or remotely through a PTZ camera.
+
+Other notable elements of the robot are its fairing, completely removable for easy maintenance and access to electronics; its battery easily interchangeable -with the possibility of acquiring a charging station with automatic exchange of battery- and easy integration of additional components in its interior.
+
+
+ERLE-COPTER:It is an autonomous areial vehicle.
+Erle-copter is a Linux-based drone that uses the award winning APM:Copter autopilot software. It’s capable of the different flight modes and ideal for outdoor operations. It has been designed for an extended flight time and it can carry a takeoff weight of about 2 kilograms.
+
+Erle-copter is powered by Erle-brain Linux autopilot which includes ROS and communicates with the flight software using the mavros ROS package.
